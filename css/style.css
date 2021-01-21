@@ -1,0 +1,508 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', 'sans-serif';
+  }
+  
+
+  
+  /*.wrapper {
+    margin: 0;
+    display: grid;
+    width: 100% !important;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "envio"
+        "hero"
+        "contenido"
+        "testimonios"
+        "formulario";
+  }*/
+
+  header>div.logo>img{
+    width: 200px;
+  }
+
+  header>div.actions>img{
+    width: 55px;
+    background-color: white;
+  }
+
+  header>div.actions>img:first-child{
+    width: 50px;
+  }
+
+
+  header{
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex: row wrap;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+  }
+  
+
+  /*div.formulario{
+    width: 100vw !important;
+  }*/
+
+  form{
+    align-self: center;
+    width: 100%;
+    padding:16px;
+    padding-left: 30px;
+    background-color:black;
+  }
+  
+  form label{
+    width: 50%;
+    font-weight:bold;
+    color: white;
+    display:block;
+  }
+  
+  form h2{
+    color: white;
+  }
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="tel"]{
+    width: 50%;
+    padding:3px 10px;
+    border:1px solid #f6f6f6;
+    border-radius:3px;
+    background-color:#f6f6f6;
+    margin:8px 8px;
+    display: block;
+  }
+  
+  form input[type="submit"]{
+    width:50%;
+    padding:8px 16px;
+    margin-top:32px;
+    border:1px solid #000;
+    border-radius:5px;
+    display:block;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    background-color:rgb(255, 245, 245);
+  } 
+  
+  form input[type="submit"]:hover{
+    cursor:pointer;
+    background-color: violet;
+  }
+
+  label.error {
+    color: red;
+    font-size: 1rem;
+    display: block;
+    margin-top: 5px;
+}
+
+input.error {
+    border: 2px dashed red;
+    font-weight: 300;
+    color: red;
+}
+  
+
+
+  .content {
+    background-color: black;
+    /*grid-area: contenido;*/
+    width: 100% !important;
+  }
+
+  .envio{
+    display: flex;
+    justify-content: center;
+    width: 100vw !important;
+  }
+
+  .envio>p{
+    margin-top: 15px;
+    font-size: 20px;
+  }
+
+  .hero{
+    background-image: url("../img/Maquillaje-Bio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100% !important;
+    height: 50vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items:center;
+    padding:0 10vw;
+    color:#fff;
+}
+.hero h1{
+    font-size:2.5rem;
+    text-transform:uppercase;
+    background:rgba(0,0,0,0.2);
+    align-self: center;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.hero>p{
+  font-size: 26px;
+}
+
+
+
+
+/*testimonios*/
+.testimonios{
+  width: 100% !important;
+}
+.testimonios h2{
+  text-align: center;
+  color: #fff;
+  background-color: black;
+
+}
+
+.reseñas{
+  background-color: black;
+  margin-top: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+.reseñas>div{
+  background-color: rgb(255, 227, 244);
+  display: none;
+  margin: 10px;
+  padding-left:8px;
+  padding-right: 8px;
+  border-radius: 20px;
+
+}
+
+
+.reseñas>button {
+  align-self: center;
+  background-color: #FF266D;
+  color:white ;
+  border-radius: 5px;
+  height: 2rem;
+  margin-bottom: 15px;
+}
+
+
+
+table td, th{
+  border-bottom: rgb(255, 0, 106) 1px dashed;
+}
+
+
+/*productos*/  
+section.productos{
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr 1fr;
+}
+
+article.content>h2{
+  margin: 15px;
+  text-align: center;
+  color: white;
+}
+
+section.productos>div.a{
+  grid-column: 1 / -1;
+}
+
+section.productos>div{
+  margin: 15px;
+  background-color: rgb(255, 223, 242);
+  padding: 15px;
+  border-radius: 25px;
+  display: none;
+}
+
+section.productos>div>img{
+  border-radius: 100px;
+  width: 90%;
+}
+
+
+section.unic{
+  background-color: rgb(253, 219, 239);
+  padding: 20px;
+}
+
+
+section.unic img{
+  width: 100px;
+}
+
+section.unic>h2{
+  text-align: center;
+  margin-top: 20px;
+}
+
+section.unic>div.container{
+  display: flex;
+  flex: column nowrap;
+  justify-content: center;
+}
+
+section.unic>div.container>div{
+  width: 150px;
+  margin: 10px;
+  text-align: center;
+}
+
+.servicios{
+  background-color: white;
+  display: grid;
+  margin: 0;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 0.5fr 0.5fr;
+}
+
+.servicios img{
+  width: 100%;
+  height: 200px;
+  margin: 0;
+}
+
+.servicios div{
+  justify-content: center;
+  position:relative;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+.servicios>div>p{
+  z-index: 1;
+  position: absolute;
+  font-size: 20px;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items:center;
+  opacity: 0;
+  text-align: center;
+  /*flexbox*/
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.servicios>div>p:hover{
+  background: rgba(100, 49, 75, 0.7);
+  opacity: 1;
+}
+
+.servicios>div>div.text>p{
+  order: 2;
+}
+
+.servicios>div>h3{
+      position: relative;
+      width: 100%;
+			bottom:25px;
+			color:#fff;
+			background-color:rgb(214, 55, 122);
+			opacity:0.8;
+			font-weight:bold;
+}
+
+
+/*footer*/
+.footer{
+  background-color: #000000;
+  text-align: center;
+  
+  
+}
+
+.footer .foot{
+  color: white;
+  font-size: 35px;
+  font-family: 'Lobster', cursive;
+}
+
+
+
+::placeholder { color:white; }
+
+
+  
+.footer .end {
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-flow: column nowrap;
+  flex-grow: 1;
+  border-bottom: 1px black solid;
+}
+
+
+.footer .end *{
+  flex: 100%;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 15px;
+  
+}
+
+.footer .end div{
+  display: flex;
+  flex-flow: column;
+}
+.footer .end a{
+  font-size: small;
+  margin: 10px;
+}
+.footer .end a:hover{
+  color: #FF266D;
+  font-weight: bold;
+}
+
+.footer>div>p{
+  color:white;
+}
+
+
+/*boton para subir*/
+.btn-flotante {
+	font-size: 11px; /* Cambiar el tamaño de la tipografia */
+	text-transform: uppercase; /* Texto en mayusculas */
+	font-weight: bold; /* Fuente en negrita o bold */
+	color: #ffffff; /* Color del texto */
+	border-radius: 5px; /* Borde del boton */
+	letter-spacing: 2px; /* Espacio entre letras */
+	background-color: #eb5182; /* Color de fondo */
+	padding: 18px 30px; /* Relleno del boton */
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	transition: all 300ms ease 0ms;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	z-index: 99;
+}
+.btn-flotante:hover {
+	background-color:#E91E63;; /* Color de fondo al pasar el cursor */
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(-7px);
+}
+
+@media only screen and (max-width: 600px) {
+ 	.btn-flotante {
+		font-size: 14px;
+		padding: 12px 20px;
+		bottom: 20px;
+		right: 20px;
+	}
+} 
+
+
+  
+  @media screen and (min-width: 570px) {
+
+    .wrapper {
+      margin: 0 auto;
+      /*grid-template-columns: 1fr 1fr;*/
+    }
+    
+    .header, .footer, .envio, .hero, form, .testimonios, .formulario{
+      grid-column: 1;
+    }
+
+    section.productos{
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 0.75fr 1fr;
+    }
+    section.productos>div.a{
+      grid-column: 1 / 3;
+    }
+    
+
+    .reseñas{
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+    }
+    
+    .reseñas>button {
+      grid-column: 2;
+      width: 50%;
+      margin-left: 25%;
+    }
+
+    section.productos>div>img{
+      width: 75%;
+    
+    }
+
+    .servicios{
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+    }
+
+    .servicios>div#10{
+      grid-row: 2;
+      grid-column: 1/3;
+      width: 100%;
+    }
+
+
+    .footer .end{
+      display: flex;
+      flex-flow: row;
+    }
+
+
+
+    
+  
+  }
+
+  @media screen and (min-width: 1200px) {
+    .reseñas{
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    section.productos{
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+    section.productos>div.a{
+      grid-column: 1 ;
+    }
+    section.productos>div.b{
+      grid-column: 3;
+      grid-row: 1 / 3;
+    }
+
+
+
+
+  }
+  
+  /* We need to set the widths used on floated items back to auto, and remove the bottom margin as when we have grid we have gaps. */
+  @supports (display: grid) {
+    .wrapper > * {
+      width: auto;
+      margin: 0;
+    }
+  }

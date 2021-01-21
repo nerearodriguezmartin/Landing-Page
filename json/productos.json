@@ -1,0 +1,42 @@
+[{
+    "id": 1, 
+    "titulo": "ACEITE DE COCO",
+    "texto":"Aceite esencial ecológico extraído cuidadosamente de los más selectos cocos. Gracias a su composición natural, es un producto indispensable en toda rutina de bellleza.", 
+    "link":"https://ainaravc4.github.io/Primera-Web/producto.html",
+    "img":"https://ecomakeups.files.wordpress.com/2020/05/aceite-de-coco-2.jpg"
+    }, 
+
+    {
+    "id": 2, 
+    "titulo": "LABIAL DE FRAMBUESA",
+    "texto":"Consigue esos labios carnosos color frambuesa que siempre has querido. Nuestra fórmula natural, extrae el pigmento característico de la frambuesa, por lo que obtiene una pigmentación óptima, a la vez que cuidas tus labios aportándoles una hidratación duradera y un brillo excepcional.", 
+    "link":"https://ainaravc4.github.io/Primera-Web/producto.html",
+    "img":"https://ecomakeups.files.wordpress.com/2020/05/871a1298cfcaeff2a7136fbfec21f468-2.jpg"
+    }, 
+
+    {
+    "id": 3, 
+    "titulo": "SOMBRAS MINERALES",
+    "texto":"Nuestras sombras se obtienen a partir de pigmentos naturales, como de la lazurita, un selecto mineral, del que conseguimos ese azul intenso, o con extractos de plata obtenemos un efecto plateado en nuestro párpado. Además la pigmentación es máxima, ya que son productos totalmente naturales.", 
+    "link":"https://ainaravc4.github.io/Primera-Web/producto.html",
+    "img": "https://ecomakeups.files.wordpress.com/2020/05/rbvavl1tgiiahuyeaawwpnw_mme795-2.jpg"
+    }, 
+
+    {
+    "id": 4, 
+    "titulo": "LABIAL TEDDY-VELVET-ECO",
+    "texto":"El labial que no te cansarás de usar. Su acabado mate es adecuado para cualquier situación, te aporta la elegancia y naturalidad perfecta para cualquier look. Además, su composición natural cuida de tu piel. Incluye un envase 100% eco que también protege el medio ambiente.", 
+    "link":"https://ainaravc4.github.io/Primera-Web/producto.html",
+    "img": "https://ecomakeups.files.wordpress.com/2020/05/bad6b595650281.y3jvccwxmjy0ldk4osw3msw5nw-1.png"
+    }, 
+
+    {
+    "id": 5, 
+    "titulo": "BROCHAS",
+    "texto":"Toda nuestra gama de brochas son fabricadas con fibras naturales. Además incluye brochas de los diferentes tamaños, con lo que conseguirás la precisión que buscas para conseguir el maquillaje perfecto.", 
+    "link":"https://ainaravc4.github.io/Primera-Web/producto.html",
+    "img": "https://ecomakeups.files.wordpress.com/2020/05/pincel-para-sombras-ojos-n-5purobio.jpg?w=798"
+    } 
+
+    
+        ]

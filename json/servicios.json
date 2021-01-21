@@ -1,0 +1,25 @@
+[{
+    "id": 1, 
+    "titulo": "ENVASES",
+    "texto":"Todos nuestros envases son orgánicos y biodegradables, buscando ser lo más económico posible y que a la vez, conserven perfectamente todas las propiedades de nuestros productos.", 
+    "link":"https://ainaravc4.github.io/Primera-Web/sobre.html",
+    "img":"https://ecomakeups.files.wordpress.com/2020/05/c0c07b83a288086d9a12d442383cd98a.jpg?w=1024"
+    }, 
+
+    {
+    "id": 2, 
+    "titulo": "PIGMENTOS",
+    "texto":"Los pigmentos de nuestros productos son naturales, extraídos directamente de minerales.", 
+    "link":"https://ainaravc4.github.io/Primera-Web/sobre.html",
+    "img":"https://ecomakeups.files.wordpress.com/2020/05/crea-makeup-details-nuancier-1_1441616206-1.jpg?w=684"
+    }, 
+
+    {
+    "id": 3, 
+    "titulo": "LABIALES",
+    "texto":"Nuestros labiales sin siliconas ni colorantes sintéticos.", 
+    "link":"https://ainaravc4.github.io/Primera-Web/sobre.html",
+    "img": "https://ecomakeups.files.wordpress.com/2020/05/cosmeticadecorativaproductos-1.jpg"
+    } 
+    
+        ]

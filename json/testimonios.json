@@ -1,0 +1,94 @@
+[{
+    "id": 1, 
+    "estrellas": 5,
+    "asunto":"Servicio excelente", 
+    "mensaje":"¡Su servicio es magnífico! Lo recomiendo 100%",
+    "nombre" : "Fiona",
+    "fecha" : "20/12/2020"
+    }, 
+
+    {
+    "id": 2, 
+    "estrellas": 5,
+    "asunto":"Me encantan todos los productos", 
+    "mensaje":"Estoy muy contenta con mi pedido y valoro la posibilidad que proporcionáis de poder usar maquillaje eco.",
+    "nombre" : "Luisa",
+    "fecha" : "12/01/2021"
+    },
+
+    {
+    "id": 3, 
+    "estrellas": 4,
+    "asunto":"Calidad suprema", 
+    "mensaje":"Valoro mucho la calidad y la presentación. La calidad del aceite de coco es extraordinario",
+    "nombre" : "Michelle",
+    "fecha" : "15/10/2020"
+    },
+
+    {
+    "id": 4,
+    "estrellas": 3, 
+    "asunto":"Productos de calidad, precio elevado", 
+    "mensaje": "Reconozco que la  calidad que ofrecen los productos es buena, pero el precio me parece excesivo",
+    "nombre" : "Laura",
+    "fecha" : "02/08/2020"
+    },
+
+
+    {
+    "id": 5, 
+    "estrellas": 5,
+    "asunto":"La mejor tienda de productos bio", 
+    "mensaje":"Todos los productos tienen la certificación BIO, y la calidad de los productos se nota en la piel desde la primera aplicación. Lo recomiendo",
+    "nombre" : "Aitana",
+    "fecha" : "23/09/2020"
+    },
+
+    {
+    "id": 6, 
+    "estrellas": 4,
+    "asunto":"Productos mágicos", 
+    "mensaje":"Los productos que mejor cuidan mi piel. Ya no podría vivir sin la crema regeneradora. Bajaría la compra mínima para tener gastos de envío gratuitos a 20€",
+    "nombre" : "Andrea",
+    "fecha" : "30/12/2020"
+    },
+
+    {
+    "id": 7, 
+    "estrellas": 2,
+    "asunto":"Servicio de entrega lento", 
+    "mensaje":"El pedido tardó 2 semanas en llegar. Deben mejorar la logística, productos de  calidad",
+    "nombre" : "Faina",
+    "fecha" : "14/02/2020"
+    },
+
+    {
+    "id": 8, 
+    "estrellas": 3,
+    "asunto":"Labiales de poca duración", 
+    "mensaje":"Al aplicar el labial, siento mis labios muy hidratados y regenerados, pero el color no dura como un labial permanente",
+    "nombre" : "Aina",
+    "fecha" : "20/11/2020"
+    },
+
+    {
+    "id": 9, 
+    "estrellas": 5,
+    "asunto":"No existen aspectos negativos", 
+    "mensaje":"El pedido me llegó en dos días, y nunca había probado productos BIO con esta calidad. Permiten usar maquillaje de alta cosmética, pero sin dañar el medio ambiente. Es justo lo que buscaba",
+    "nombre" : "Gabriela",
+    "fecha" : "08/06/2020"
+    },
+
+    {
+    "id": 10, 
+    "estrellas": 5,
+    "asunto":"Justo lo que buscaba", 
+    "mensaje":"Tienen todo lo que busco en cosméticos. No testan en animales, y su precio es razonable a la calidad que ofrecen",
+    "nombre" : "Patricia",
+    "fecha" : "18/07/2020"
+    }
+
+
+    
+        ]
