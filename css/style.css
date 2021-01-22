@@ -163,6 +163,7 @@ input.error {
 
 .hero>p{
   font-size: 26px;
+  z-index: 2;
 }
 
 
