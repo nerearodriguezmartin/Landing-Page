@@ -44,6 +44,7 @@
     justify-content: space-between;
     position: sticky;
     top: 0;
+    z-index: 2;
   }
   
 
@@ -115,7 +116,6 @@ input.error {
 
   .content {
     background-color: black;
-    /*grid-area: contenido;*/
     width: 100% !important;
   }
 
@@ -130,12 +130,19 @@ input.error {
     font-size: 20px;
   }
 
+  video{
+    opacity: 0.7;
+    object-fit: cover;
+    position: absolute;
+    height: 80vh;
+    width: 100%;
+    z-index: 0;
+    margin-left: 8px;
+  }
+
   .hero{
-    background-image: url("../img/Maquillaje-Bio.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     width:100% !important;
-    height: 50vh;
+    height: 80vh;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -150,6 +157,7 @@ input.error {
     align-self: center;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    z-index: 2;
 
 }
 

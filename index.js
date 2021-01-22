@@ -12,7 +12,10 @@ function cargarTestimonios() {
             manejaVistaTestimonios(info);
         })
         .fail(function() {
-            setTimeout(cargarTestimonios, 5000);
+            if(!respuesta1){
+                setTimeout(cargarTestimonios, 5000);
+            }
+            
         })
     }
 
@@ -155,7 +158,10 @@ function maquetarTestimonios(info){
             
         })
         .fail(function() {
-            setTimeout(cargarProductos, 5000);
+            if(!respuesta2){
+                setTimeout(cargarProductos, 5000); 
+            }
+            
         })
     }
 
@@ -194,7 +200,10 @@ function maquetarTestimonios(info){
             
         })
         .fail(function() {
-            setTimeout(cargarServicios, 5000);
+            if(!respuesta3){
+                setTimeout(cargarServicios, 5000);
+            }
+            
         })
     }
 
