@@ -302,7 +302,7 @@ function validarCampoEmail(campoEmail){
 }
     
 
-function success(position) {
+/*function success(position) {
 	let coord = position.coords;
 
 	$.ajax(`https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyDjvHdvdurSFFYNLooOUGRmanwxK7qORUw&address=${coord.latitude},${coord.longitude}`)
@@ -317,7 +317,7 @@ function success(position) {
 
 function error(error) {
 	console.warn(`ERROR(${error.code}): ${error.message}`);
-}
+}*/
 
 
 
@@ -331,5 +331,5 @@ window.onload = ()=>{
     $("#news").click(function(){
 		$("html").animate({scrollTop: 2700},3000)
 	});
-    navigator.geolocation.getCurrentPosition(success, error);
+    //navigator.geolocation.getCurrentPosition(success, error);
 }
