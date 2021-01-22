@@ -1,25 +1,21 @@
 var cont = 0;
 var vista = "def";
-var respuesta = false;
+var respuesta1 = false;
+var respuesta2 = false;
+var respuesta3 = false;
 function cargarTestimonios() {
         $.ajax( "./json/testimonios.json" )
         .done(function(info) {
-            //console.log(info);
-            respuesta = true;
+            respuesta1 = true;
             maquetarTestimonios(info);
             cambiaTesimonios(info);
             manejaVistaTestimonios(info);
         })
         .fail(function() {
-            cargar();
+            setTimeout(cargarTestimonios, 5000);
         })
     }
 
-    function cargar(){
-        while(!respuesta){
-            setInterval(cargarTestimonios, 5000);
-        }
-    }
         
 function maquetarTestimonios(info){
     vista = "def";
@@ -154,11 +150,12 @@ function maquetarTestimonios(info){
         $.ajax( "./json/productos.json")
         .done(function(info) {
             //console.log(info);
+            respuesta2 = true;
             maquetarProductos(info);
             
         })
         .fail(function() {
-            
+            setTimeout(cargarProductos, 5000);
         })
     }
 
@@ -192,11 +189,12 @@ function maquetarTestimonios(info){
         $.ajax( "./json/servicios.json")
         .done(function(info) {
             //console.log(info);
+            respuesta3 = true;
             maquetarServicios(info);
             
         })
         .fail(function() {
-            
+            setTimeout(cargarServicios, 5000);
         })
     }
 
@@ -320,5 +318,9 @@ window.onload = ()=>{
     cargarServicios();
     subeScroll();
     validarFormulario();
+    //boton para el formulario
+    $("#news").click(function(){
+		$("html").animate({scrollTop: 2700},3000)
+	});
     navigator.geolocation.getCurrentPosition(success, error);
 }
